@@ -19,11 +19,17 @@ export default function Contact() {
             </p>
             <p className="flex items-center justify-center gap-3 text-lg">
               <span className="text-2xl text-blue-600">📞</span>
-              +91 9693915693
+              +91 9693915693 
+              <br>
+              +91 8104559889
+              </br>
             </p>
             <p className="flex items-center justify-center gap-3 text-lg">
               <span className="text-2xl text-blue-600">✉️</span>
              anshuraj6357@gmail.com
+               <br>
+             bind74573@gmail.com
+              </br>
             </p>
           </div>
 
