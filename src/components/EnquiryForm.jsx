@@ -10,8 +10,8 @@ export default function EnquiryForm() {
     address: "",
     message: "",
   });
-  const [status, setStatus] = useState("idle"); // idle | sending | done | error
 
+  const [status, setStatus] = useState("idle"); // idle | sending | done | error
   const API_URL = import.meta.env.VITE_API_URL; // Backend URL from Vercel env variable
 
   // Update form state
@@ -57,6 +57,7 @@ export default function EnquiryForm() {
       className="py-24 bg-gradient-to-r from-blue-50 to-indigo-50 scroll-mt-16"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        {/* Heading */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
             Enquiry / Booking
@@ -66,6 +67,7 @@ export default function EnquiryForm() {
           </p>
         </div>
 
+        {/* Form */}
         <div className="grid lg:grid-cols-2 gap-12">
           <form
             onSubmit={handleSubmit}
