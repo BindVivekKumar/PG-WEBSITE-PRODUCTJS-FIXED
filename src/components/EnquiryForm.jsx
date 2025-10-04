@@ -23,7 +23,7 @@ export default function EnquiryForm({ ownerEmail = "" }) {
 
     try {
 
-      await axios.post("https://pg-website-productjs-fixed-backend-8.onrender.com/api/v1/uploadquery", form)
+      await axios.post("https://pg-website-productjs-fixed-backend-8.onrender.com/api/v1/uploadQuery", form)
       console.log(form);
 
       // Form reset
