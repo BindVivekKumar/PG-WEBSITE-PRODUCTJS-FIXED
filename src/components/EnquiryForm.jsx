@@ -23,7 +23,7 @@ export default function EnquiryForm({ ownerEmail = "" }) {
 
     try {
 
-      await axios.post("http://localhost:5000/api/v1/uploadquery", form)
+      await axios.post("https://dashboard.render.com/web/srv-d3ge26h5pdvs73ee24gg/deploys/dep-d3ge26p5pdvs73ee24og", form)
       console.log(form);
 
       // Form reset
