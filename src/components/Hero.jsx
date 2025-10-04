@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-snug">
             Comfortable & Affordable{" "}
-            <span className="text-indigo-600">PG Accommodation</span>
+            <span className="text-indigo-600">Stay-Go & PG Accommodation</span>
           </h1>
 
           <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
