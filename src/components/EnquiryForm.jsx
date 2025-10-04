@@ -246,8 +246,10 @@ export default function EnquiryForm({ ownerEmail = "" }) {
               href="tel:+91 9693915693"
               className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition font-medium"
             >
-              📞 +91 9693915693
+              📞 +91 9693915693 / +91 8104559889
             </a>
+
+            
             <img
               src="WhatsApp Image 2025-10-03 at 23.33.32_42cd83b4.jpg"
               alt="PG Building"
